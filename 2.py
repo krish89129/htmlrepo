@@ -1,17 +1,34 @@
-a = int(input("enter a num: "))
-b = int(input("enter a num: "))
+#dictionary => is a mutable 
 
-sum = a + b
+info = {
+    "name": "krish",
+    "course": "bca",
+    "age": "topic",
+    "topic": "dict"
+}
 
-print("sum", sum)
+print(type(info)) #type
+
+print(info["name"])
+print(info["course"])
+print(info["topic"])
+
+
+ 
+
+
+# to assign or add new
+
+info["name"] = "prishuu"
+print(info)
 
 
 
-a = int(input("enter a num: "))
-b = int(input("enter a num: "))
-
-sum = a + b
-
-print("sum", sum)
 
 
+null_dict = {} #create a empty set
+
+null_dict = {
+    "name" : "krish"
+}
+print(null_dict)
