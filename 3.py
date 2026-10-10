@@ -11,5 +11,5 @@ total = price1 + price2 + price3
 avg = total/3
 
 print('total' ,total)
-print('avg' ,avg)
+
 
